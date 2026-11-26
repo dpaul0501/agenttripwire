@@ -1,0 +1,11 @@
+[project]
+name = "agenttripwire"
+version = "0.0.1"
+description = "Behavioral third-party readiness testing for any agent (bring your own agent)."
+requires-python = ">=3.9"
+dependencies = []
+[project.scripts]
+agenttripwire = "agenttripwire.cli:main"
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
